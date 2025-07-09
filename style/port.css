@@ -12,7 +12,10 @@
  .text-primary{
     color: #FD6E0A ;
  }
-  
+.bg-cl{
+    background-color: #FFF8F3;
+}
+
 
  /* nav styles */
  nav{
@@ -29,6 +32,9 @@
     background-position: top left,bottom right ;
  }
 
+.text-cen{
+    text-align: center;
+}
 
  .nav-title{
     font-weight: 800 ;
@@ -87,4 +93,106 @@
 .banner-contant{
     width: 585px ;
     height: 356px;
+}
+/* main title */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #757575;
+}
+/*main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+ main section{
+        margin-top: 130px;
+
+ }
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.item-des{
+    font-weight: 600;
+}
+
+/*skill*/
+.skillss{
+    display: flex;
+    gap: 24px;
+}
+.skills-con{
+    padding: 30px ;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0,6%);
+    border-radius: 5px;
+}
+
+.skill-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #181818;
+}
+.skill-des{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+.res-co{
+    display: flex;
+    gap: 24px;
+}
+.exp-des{
+    color: #757575;
+    font-size: 16px;
+}
+.exp-tit{
+    color: #474747;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.sub-tit{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.res-tit{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.bt{
+    margin-top: 50px;
+    margin-bottom: 115px;
+}
+/*footer*/
+
+
+footer{
+    margin: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+footer input[type="text"],footer input[type="email"],footer input[type="textarea"]{
+    width: 461px;
+    height: 64px;
+    background-color: white;
+    display: block;
+    padding: 18px 30px;
+    margin-bottom: 25px;
 }
